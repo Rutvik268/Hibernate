@@ -18,6 +18,7 @@ public class Human {
 	@Column(name = "Human_name")
 	private HumanName hname;
 	private int hage;
+	
 	@ManyToMany(mappedBy="human")
 	private List<Laptop> laptop = new ArrayList<Laptop>();
 
