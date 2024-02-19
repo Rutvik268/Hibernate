@@ -14,7 +14,6 @@ public class Human {
 
 	@Id
 	private int hid;
-
 	@Column(name = "Human_name")
 	private HumanName hname;
 	private int hage;
